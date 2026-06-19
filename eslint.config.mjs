@@ -1,4 +1,4 @@
-import { defineConfig } from "@fullstacksjs/eslint-config";
+import { defineConfig } from '@fullstacksjs/eslint-config';
 
 export default defineConfig(
   {
@@ -8,10 +8,10 @@ export default defineConfig(
   },
   {
     rules: {
-      "prettier/prettier": [
-        "error",
+      'prettier/prettier': [
+        'error',
         {
-          singleQuote: false,
+          singleQuote: true,
           semi: true,
           // trailingComma: "es5",
         },
